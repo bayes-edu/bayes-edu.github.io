@@ -113,7 +113,7 @@ window.PROGRAMS = [
     stages: ['bachillerato'],
     level: '2.º Bachillerato',
     model: 'Combinado A+C',
-    description: 'Explica y hace practicar el teorema de Bayes con cuatro partes interconectadas: teoría desde la probabilidad básica, diagnóstico multifactorial de conocimientos previos, diagnóstico del nivel de Bayes y práctica guiada con pistas y olvido. Bancos de plantillas parametrizadas verificadas; interfaz en español, preparada para catalán, gallego, euskera e inglés.',
+    description: 'Explica y hace practicar el teorema de Bayes con cuatro partes interconectadas: teoría desde la probabilidad básica, diagnóstico multifactorial de conocimientos previos, diagnóstico del nivel de Bayes y práctica guiada con pistas y olvido. Bancos de plantillas parametrizadas verificadas; interfaz en español y catalán (preparada para gallego, euskera e inglés).',
     url: 'https://jjdeharo.github.io/bayeslab/',
     repo: 'https://github.com/jjdeharo/bayeslab',
     featured: false,
