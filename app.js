@@ -18,9 +18,6 @@
 
   function links(p) {
     var html = '<a class="btn btn-primary" href="' + esc(p.url) + '" target="_blank" rel="noopener">Abrir ↗</a>';
-    if (p.repo) {
-      html += '<a class="btn btn-ghost" href="' + esc(p.repo) + '" target="_blank" rel="noopener">Código</a>';
-    }
     return '<div class="links">' + html + '</div>';
   }
 
@@ -39,7 +36,6 @@
         '</div>' +
         '<div class="cta-actions">' +
           '<a class="btn btn-primary btn-lg" href="' + esc(p.url) + '" target="_blank" rel="noopener">Ver la metodología ↗</a>' +
-          (p.repo ? '<a class="btn btn-ghost" href="' + esc(p.repo) + '" target="_blank" rel="noopener">Código</a>' : '') +
         '</div>' +
       '</div>';
   }
