@@ -36,7 +36,7 @@ por área y los contadores. Para crear un **área nueva**, añade su clave a
 ## Estructura
 
 ```
-bayes-edu-index/
+bayes-edu.github.io/
 ├── index.html     Estructura de la página
 ├── styles.css     Estilos (tema claro/oscuro)
 ├── app.js         Renderizado y filtros
