@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos adaptativos bayesianos · Índice</title>
+  <meta name="description" content="Índice de recursos educativos adaptativos bayesianos: evaluaciones y actividades que se adaptan a cada alumno mediante inferencia bayesiana y entropía de Shannon.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(t==='dark'||(t===null&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}());</script>
+</head>
+<body>
+
+  <header class="header">
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
+    <h1>Recursos educativos adaptativos bayesianos</h1>
+    <p>Colección de evaluaciones y actividades que se adaptan a cada alumno mediante inferencia bayesiana, modelo IRT y entropía de Shannon. Todos funcionan en el navegador, sin instalación ni servidor.</p>
+    <a class="header-cta" href="https://jjdeharo.github.io/recursos-adaptativos/" target="_blank" rel="noopener">📊 Crea tus propios recursos con esta metodología ↗</a>
+  </header>
+
+  <main class="wrap">
+
+    <div id="featured"></div>
+
+    <h2 class="section-title">Aplicaciones</h2>
+    <div class="controls">
+      <div class="filters">
+        <div class="filter-group">
+          <span class="filter-label">Tema</span>
+          <div class="chips" id="chips-area"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Nivel</span>
+          <div class="chips" id="chips-stage"></div>
+        </div>
+      </div>
+      <input type="search" class="search" id="search" placeholder="Buscar recurso…" aria-label="Buscar recurso">
+    </div>
+    <div class="grid" id="grid"></div>
+
+    <footer class="footer">
+      <p>Autor: <a href="https://bilateria.org" target="_blank" rel="noopener">Juan José de Haro</a></p>
+      <p>Contenido bajo <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> · Código bajo <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener">AGPL-3.0</a></p>
+    </footer>
+
+  </main>
+
+  <script src="programs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
