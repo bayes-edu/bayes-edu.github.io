@@ -21,7 +21,7 @@ objeto de la lista `window.PROGRAMS` y edítalo:
   subtitle: 'Tema o curso',
   area: 'matematicas',          // metodologia | matematicas | lengua | ciencias | general
   level: '2.º ESO',             // '' si no aplica
-  model: 'Nominal (tipo C)',    // etiqueta del tipo de modelo
+  model: 'Nominal excluyente (perfil B)', // etiqueta del tipo de modelo
   description: 'Una o dos frases.',
   url: 'https://jjdeharo.github.io/mi-recurso/',
   repo: 'https://github.com/jjdeharo/mi-recurso',   // '' si no hay
@@ -53,7 +53,7 @@ bayes-edu.github.io/
 - **[Diagnóstico multifactorial de decimales](https://jjdeharo.github.io/bayes-nominal/)** — comparación de decimales.
 - **[PotenciaLab](https://jjdeharo.github.io/bayes-potencias/)** — propiedades de las potencias, 1.º Bachillerato.
 - **[Laboratorio de combinatoria](https://jjdeharo.github.io/labcom/)** — combinatoria.
-- **[¿Frío o caliente?](https://jjdeharo.github.io/bayes-temperatura/)** — modelos mentales sobre calor, ESO.
+- **[¿Cómo cambian las especies?](https://jjdeharo.github.io/bayes-temperatura/)** — concepciones sobre la evolución, ESO.
 - **[¿Con tilde o sin tilde?](https://jjdeharo.github.io/bayes-acentuacion/)** — acentuación, Lengua 1.º–2.º ESO.
 
 ## Licencias

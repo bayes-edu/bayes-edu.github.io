@@ -26,7 +26,7 @@ window.AREAS = {
   metodologia: { label: 'Metodología', icon: '📊', color: '#4f46e5' },
   matematicas: { label: 'Matemáticas', icon: '📐', color: '#2563eb' },
   lengua:      { label: 'Lengua',      icon: '✍️', color: '#db2777' },
-  ciencias:    { label: 'Física y Química', icon: '🌡️', color: '#ea580c' },
+  ciencias:    { label: 'Biología y Geología', icon: '🧬', color: '#059669' },
   general:     { label: 'General',     icon: '🎯', color: '#16a34a' },
 };
 
@@ -133,13 +133,13 @@ window.PROGRAMS = [
   },
   {
     id: 'bayes-temperatura',
-    title: '¿Frío o caliente?',
-    subtitle: 'Modelos mentales sobre calor y temperatura · ESO',
+    title: '¿Cómo cambian las especies?',
+    subtitle: 'Concepciones sobre la evolución · ESO',
     area: 'ciencias',
     stages: ['eso'],
     level: 'ESO',
-    model: 'Nominal (tipo C)',
-    description: 'Diagnostica qué concepción errónea sobre el calor usa el alumnado (el tacto mide la temperatura, la ropa produce calor o el modelo correcto). Hipótesis mutuamente excluyentes con matriz de verosimilitudes explícita por pregunta.',
+    model: 'Nominal excluyente (perfil B)',
+    description: 'Diagnostica desde qué marco explica el alumnado la evolución: lamarckismo (el esfuerzo se hereda), finalismo (la especie cambia porque lo necesita) o el modelo correcto de variación y selección. Marcos rivales mutuamente excluyentes, con matriz de verosimilitudes explícita por pregunta.',
     url: 'https://jjdeharo.github.io/bayes-temperatura/',
     repo: 'https://github.com/jjdeharo/bayes-temperatura',
     featured: false,
